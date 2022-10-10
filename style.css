@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*display inline-flex*/
+header, menu-list {
+    display: inline-flex;
+}
+header img {
+    width: 5em;
+}
+menu {
+    margin-left: auto;
+    align-self: center;
+}
+.menu-list {
+    list-style: none;
+}
+/*menu*/
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid green;
+    text-align: center;
+}
+footer p {
+    font-weight: bold;
+}
